@@ -997,7 +997,7 @@ function renderTicker(items) {
   // Adjust speed based on total content width — recalc after paint
   requestAnimationFrame(() => {
     const totalW = track.scrollWidth / 2;
-    const speed = 80; // px per second
+    const speed = 180; // px per second
     const duration = totalW / speed;
     track.style.animationDuration = `${duration}s`;
   });
